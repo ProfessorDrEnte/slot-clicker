@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="style.css" />
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Slot Clicker</title>
+  </head>
+  <body>
+  <h1>Slot Clicker</h1>
+  <div>
+    <p>Chips: <span id="chips">1000</span></p>
+    <button id="spinButton">Spin (10 Chips)</button>
+    <button id="upgradeButton">Upgrade Multiplier (50 Chips)</button>
+    <p>Aktueller Multiplikator: <span id="multiplier">1</span></p>
+  <div id="reels">
+  <span class="reel" id="reel1">?</span>
+  <span class="reel" id="reel2">?</span>
+  <span class="reel" id="reel3">?</span>
+</div>
+    <div id="message"></div>
+  </div>
+  <button id="resetButton" style="display:none">Restart</button>
+
+  <script src="./src/index.js"></script>
+</body>
+
+</html>

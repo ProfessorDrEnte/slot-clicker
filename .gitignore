@@ -1,0 +1,13 @@
+# node dependencies
+node_modules/
+
+# build output
+dist/
+build/
+
+# system
+.DS_Store
+Thumbs.db
+
+# typescript
+*.tsbuildinfo
